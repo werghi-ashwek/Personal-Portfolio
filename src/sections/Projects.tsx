@@ -2,28 +2,39 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Personal Portfolio",
+    date: "Mars 2025 – Mars 2025",
+    tech: ["React.js", "TypeScript", "TailwindCSS", "Framer Motion"],
+    description:
+      "Built a responsive and interactive portfolio to showcase projects and skills, incorporating smooth animations using Framer Motion.",
+  },
+  {
+    title: "Static VirtualR Website",
+    date: "October 2024 – Jan 2025",
+    tech: ["React.js", "JavaScript", "TailwindCSS"],
+    description:
+      "Developed a static yet visually engaging website for VirtualR, ensuring a sleek design and seamless navigation.",
+  },
+  {
     title: "Hack’Prise 2.0",
     date: "May 2022 – June 2022",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     description:
-      "Developed a dynamic event website for ENSI Junior Entreprise, enabling event details and registration.",
-    link: "#", // Add a link if available
+      "Created a dynamic event platform for Hack’Prise 2.0, enabling seamless event management, user registrations, and real-time updates.",
   },
   {
     title: "HR Management Dashboard",
-    date: "January 2022 – June 2022",
+    date: "Jan 2022 – June 2022",
     tech: ["React.js", "Blockchain", "Talend"],
     description:
-      "Designed an HR dashboard with KPIs, integrated blockchain for security, and used Talend for ETL processing.",
-    link: "#", // Add a link if available
+      "Designed an HR dashboard with insightful KPIs, integrating blockchain for enhanced security and Talend for efficient ETL data processing.",
   },
   {
     title: "Driving School Management",
     date: "July 2021 – September 2021",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     description:
-      "Built a full-stack app for managing driving school operations, improving efficiency and organization.",
-    link: "#", // Add a link if available
+      "Developed a full-stack application to streamline driving school operations, including student tracking, scheduling, and progress monitoring.",
   },
 ];
 
@@ -36,11 +47,11 @@ const ProjectsSection = () => {
           className="text-center mb-16"
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }} // Ensures animation only happens once
+          viewport={{ once: true }} 
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-5xl font-bold text-[#303031] mb-4">Projects</h2>
-          <p className="text-lg sm:text-xl text-[#7E6957]">
+          <p className="text-lg sm:text-2xl font-[500] text-[#7E6957]">
             A selection of my past projects showcasing my expertise.
           </p>
         </motion.div>
@@ -53,7 +64,7 @@ const ProjectsSection = () => {
               className="bg-[#1E1D1D] p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }} // Triggers animation when 20% of the element is visible
+              viewport={{ once: true, amount: 0.2 }} 
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
               {/* Project Title */}

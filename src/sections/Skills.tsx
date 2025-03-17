@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaReact, FaNodeJs, FaCss3Alt, FaGithub, FaDatabase, FaHandshake, FaChartLine } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaCss3Alt, FaGithub, FaDatabase, FaHandshake, FaChartLine, FaUsers, FaMicrophone } from "react-icons/fa";
 import { SiJira, SiJenkins } from "react-icons/si";
 
 const technicalSkills = [
@@ -19,8 +19,8 @@ const technicalSkills = [
 const nonTechnicalSkills = [
   { name: "Negotiation Techniques", icon: <FaHandshake /> },
   { name: "KPIs Knowledge", icon: <FaChartLine /> },
-  { name: "Team Collaboration", icon: <FaHandshake /> },
-  { name: "Problem Solving", icon: <FaChartLine /> },
+  { name: "Team Collaboration", icon: <FaUsers /> },
+  { name: "Public Speaking & Presentation", icon: <FaMicrophone /> },
 ];
 
 const SkillsSection = () => {
@@ -49,7 +49,7 @@ const SkillsSection = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-6xl mb-4 text-[#867C70] hover:text-[#5A4D41] transition-all duration-300">
+                <div className="text-5xl mb-4 text-[#867C70] hover:text-[#5A4D41] transition-all duration-300">
                   {skill.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-[#F5F5DC]">
@@ -80,7 +80,7 @@ const SkillsSection = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-6xl mb-4 text-[#867C70] hover:text-[#5A4D41] transition-all duration-300">
+                <div className="text-5xl mb-4 text-[#867C70] hover:text-[#5A4D41] transition-all duration-300">
                   {skill.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-[#F5F5DC]">

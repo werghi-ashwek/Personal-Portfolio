@@ -31,7 +31,7 @@ const HeroSection = () => {
           Hi, I'm <span className="text-[#867C70]">Ashwek Werghi</span>
         </h1>
 
-        <p className="text-lg sm:text-xl lg:text-2xl font-light mb-8 text-[#7E6957]">
+        <p className="text-lg sm:text-xl lg:text-xl font-light mb-8 text-[#7E6957]">
           I'm a dedicated{" "}
           <span className="font-semibold text-[#5A4D41]">
             Software Engineer
@@ -57,7 +57,7 @@ const HeroSection = () => {
           user experiences.
         </p>
 
-        <p className="text-lg sm:text-xl lg:text-2xl font-light mb-8 text-[#7E6957]">
+        <p className="text-lg sm:text-xl lg:text-xl font-light mb-8 text-[#7E6957]">
           Over the course of my career, I’ve honed my skills in{" "}
           <span className="font-semibold text-[#867C70]">
             optimizing performance
@@ -98,7 +98,7 @@ const HeroSection = () => {
             <FaNodeJs className="text-[#5A4D41] text-5xl hover:text-[#3B8735] transition-all duration-300" />
           </motion.a>
           <motion.a
-            href="https://github.com/your-profile" // Replace with your GitHub profile
+            href="https://github.com/werghi-ashwek"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
@@ -107,7 +107,7 @@ const HeroSection = () => {
             <FaGithub className="text-[#867C70] text-5xl hover:text-[#5A4D41] transition-all duration-300" />
           </motion.a>
           <motion.a
-            href="https://linkedin.com/in/your-profile" // Replace with your LinkedIn profile
+            href="https://www.linkedin.com/in/ashwek-werghi-4193291b9/" 
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
